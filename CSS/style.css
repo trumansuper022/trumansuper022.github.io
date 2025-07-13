@@ -1,0 +1,190 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:
+    linear-gradient(120deg, rgba(224, 255, 224, 0.6), rgba(255, 255, 255, 0.5)),
+    url("../Assets/minecraftcherryblossom.png") no-repeat center center fixed;
+  background-size: cover;
+  color: #222;
+}
+
+header .fs-4 {
+  color: #212529;
+}
+
+.card-cover h3 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.card-cover {
+  transition: transform 0.3s ease;
+}
+.card-cover:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  background-color: #fff;
+  border-top: 1px solid #dee2e6;
+}
+
+.white-bg {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section .card-img-top,
+.menu-img {
+  width: 100%;
+  aspect-ratio: 6 / 3;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  transition: transform 0.3s ease;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+@media (max-width: 768px) {
+  .menu-section .card-img-top,
+  .menu-img {
+    max-height: 180px;
+    aspect-ratio: 4 / 3;
+  }
+}
+
+.food-challenge .challenge-img {
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(255, 69, 0, 0.4);
+}
+
+.food-challenge .badge {
+  display: inline-block;
+  border-radius: 12px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 1.1rem;
+  padding: 0.75em 1.5em;
+  white-space: normal;
+  word-break: break-word;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+@media (max-width: 575.98px) {
+  .food-challenge .badge {
+    font-size: 1rem;
+    padding: 0.6em 1em;
+    max-width: 90vw;
+    width: 100%;
+  }
+}
+
+.section-divider,
+.appetizers-divider,
+.main-courses-divider,
+.desserts-divider,
+.feasts-divider,
+.food-challenge-divider {
+  border: none;
+  margin: 3rem auto;
+  width: 60%;
+}
+
+.section-divider {
+  border-top: 3px dashed #bbb;
+}
+.appetizers-divider {
+  border-top: 3px dashed #77b300;
+}
+.main-courses-divider {
+  border-top: 3px dashed #0073e6;
+}
+.desserts-divider {
+  border-top: 3px dashed #e67300;
+}
+.feasts-divider {
+  border-top: 3px dashed #993399;
+}
+.food-challenge-divider {
+  border-top: 3px solid #ff5733;
+  width: 70%;
+  margin: 5rem auto 3rem auto;
+}
+
+.menu-section {
+  margin-bottom: 2.5rem;
+  background: rgba(255,255,255,0.95);
+  border-radius: 18px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 2rem 1.5rem 1rem 1.5rem;
+}
+
+.menu-section h2, .menu-section h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.menu-details {
+  text-align: center;
+  width: 100%;
+}
+
+.menu-details h3,
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: #212529;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.menu-price {
+  display: block;
+  font-size: 1.1em;
+  color: #d2691e;
+  font-weight: bold;
+  background: #fff7e6;
+  padding: 0.2em 0.7em;
+  border-radius: 8px;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+  margin-left: auto;
+  width: fit-content;
+  box-shadow: 0 1px 4px rgba(210,105,30,0.08);
+}
+
+.menu-details p,
+.card-text {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.menu-section hr {
+  width: 60%;
+  margin: 1.2rem auto 2rem auto;
+  border: none;
+  height: 0;
+}
+
+@media (max-width: 991.98px) {
+  .menu-section {
+    padding: 1.2rem 0.5rem;
+  }
+  .menu-img {
+    max-width: 100%;
+    aspect-ratio: 4 / 3;
+  }
+  .menu-item {
+    margin-bottom: 1.5rem;
+  }
+}
